@@ -173,7 +173,7 @@ Input      : None
 Output     : None
 Return     : current jiffies
 *****************************************************************************/
-UINT64 get_jiffies_64(void)
+UINT64 get_jiffies_64(VOID)
 {
     return LOS_TickCountGet();
 }
